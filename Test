@@ -1,6 +1,0 @@
-import csv
-
-with open('C:\\Users\\ktoivola\\Desktop\\Test excel.xlsx', newline='') as csvfile:
-    spamreader = csv.reader(csvfile, delimiter=" ", quotechar='|')
-    for row in spamreader:
-        print(', '.join(row))Enter file contents here
